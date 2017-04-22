@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imgs/favicon.ico"/>
+        <title>Ali Portfolio</title>
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <!-- Main Container -->
+        <main class="container">
+            
+            <!-- Header -->
+            <header class="row header-info">
+                <div class="col-sm-4 col-md-6">
+                    <img class="logo" src="imgs/udacity.svg" alt="Udacity logo">
+                </div>
+                <div class="col-sm-8 col-md-6 text-right text-uppercase">
+                    <h1 class="title-super title-thin">Ali Mahmoud</h1>
+                    <h4>Front-end Ninja</h4>
+                </div>
+            </header>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive center-block full-img" src="imgs/html_sample.png" alt="Main image">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12 text-muted">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+            
+            <!-- Featured Work -->
+            <!-- TODO: add other work and edit existent-->
+            <div class="row text-center">
+                
+                <!-- Appify -->
+                <article class="col-sm-6 col-md-4 featured-work">
+                    <img class="img-responsive center-block featured-img" src="imgs/appify.jpg" alt="Appify" data-toggle="modal" data-target="#appify">
+                    <h3 class="text-uppercase">Appify</h3>
+                    <p>https://github.com/udacity/Appify</p>
+                </article>
+                
+                <!-- Sunflower -->
+                <article class="col-sm-6 col-md-4 featured-work">
+                    <img class="img-responsive center-block featured-img" src="imgs/sunflower.jpg" alt="Sunflower" data-toggle="modal" data-target="#sunflower">
+                    <h3 class="text-uppercase">Sunflower</h3>
+                    <p>https://github.com/udacity/Sunflower</p>
+                </article>
+                
+                <!-- Bokeh -->
+                <article class="col-sm-6 col-md-4 featured-work">
+                    <img class="img-responsive center-block featured-img" src="imgs/bokeh.jpg" alt="Bokeh" data-toggle="modal" data-target="#bokeh">
+                    <h3 class="text-uppercase">Bokeh</h3>
+                    <p>https://github.com/udacity/Bokeh</p>
+                </article>
+            </div>
+        
+        </main>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="row text-center">
+                <a class="social-links" href="https://www.linkedin.com/in/alimahmoud7"><li class="fa fa-linkedin-square fa-3x" aria-hidden="true"></li><span class="social-word">&nbsp; LinkedIn</span></a>
+                <a class="social-links" href="https://github.com/AliMahmoud7"><li class="fa fa-github fa-3x" aria-hidden="true"></li><span class="social-word">&nbsp; Github</span></a>
+                <a class="social-links" href="https://twitter.com/Ali_Mahmoud_7"><li class="fa fa-twitter fa-3x" aria-hidden="true"></li><span class="social-word">&nbsp; Twitter</span></a>
+                <a class="social-links" href="https://www.facebook.com/Ali.Mahmoud.7"><li class="fa fa-facebook-square fa-3x" aria-hidden="true"></li><span class="social-word">&nbsp; Facebook</span></a>
+            <p class="copyright">&copy; 2017 Ali Mahmoud</p>
+            </div>
+        </footer>
+        
+        <!-- Appify Modal -->
+        <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="appify-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="appify-label">Appify App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive full-img" src="imgs/appify.png" alt="Appify">
+                        <p class="modal-text">This was my first project in this class. I learned a lot about HTML, CSS and Responsive Design.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sunflower Modal -->
+        <div class="modal fade" id="sunflower" tabindex="-1" role="dialog" aria-labelledby="sunflower-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="sunflower-label">Sunflower App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive full-img" src="imgs/sunflower.png" alt="Sunflower">
+                        <p class="modal-text">This was my second project in this class. I learned a lot about HTML, CSS and Responsive Design.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bokeh Modal -->
+        <div class="modal fade" id="bokeh" tabindex="-1" role="dialog" aria-labelledby="bokeh-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="bokeh-label">Bokeh App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive full-img" src="imgs/bokeh.png" alt="Bokeh">
+                        <p class="modal-text">This was my third project in this class. I learned a lot about HTML, CSS and Responsive Design.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- JavaScript -->
+        <script src="js/jquery-3.2.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

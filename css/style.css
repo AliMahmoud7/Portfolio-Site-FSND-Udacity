@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+/* Header */
+.logo {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.header-info {
+    margin-top: 2%;
+}
+
+.title-super {
+    font-size: 350%;
+}
+
+hr {
+    border-top-width: 4px;
+    border-color: #7d97ad;
+}
+
+/* Featured Work */
+.text-muted {
+    color: #bcbbbb;
+}
+
+.full-img {
+    width: 100%;
+}
+
+.featured-img {
+    border: 1px solid #5f809c;
+    padding: 3px;
+    
+}
+
+.featured-work {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    padding: 25px;
+    margin-top: 15px;
+    background-color: #5f809c;
+}
+
+.social-links {
+    margin: 15px;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .social-word {
+        display: none;
+    }
+    .social-links {
+        margin: 10px;
+    }
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+/* Modal */
+.modal-text {
+    margin-top: 15px;
+    font-size: 120%;
+    text-align: center;
+}
