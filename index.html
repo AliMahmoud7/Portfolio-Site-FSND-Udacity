@@ -18,7 +18,7 @@
     <body>
         
         <!-- Main Container -->
-        <main class="container">
+        <div class="container">
             
             <!-- Header -->
             <header class="row header-info">
@@ -37,56 +37,68 @@
                 </div>
             </div>
             
+            <!-- Main Picture -->
             <div class="row">
                 <div class="col-md-12">
-                    <img class="img-responsive center-block full-img" src="imgs/html_sample.png" alt="Main image">
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-12 text-muted">
-                    <h2>Featured Work</h2>
+                    <img class="img-responsive full-img" src="imgs/code_sample.jpg" srcset="imgs/code_sample-800.jpg 1x, imgs/code_sample-1600.jpg 2x" alt="Code sample">
                 </div>
             </div>
             
             <!-- Featured Work -->
+            <div class="row">
+                <div class="col-md-12 text-muted featured-header">
+                    <h2><span class="fa fa-pencil" aria-hidden="true"></span>&nbsp; Featured Work</h2>
+                </div>
+            </div>
+            
             <!-- TODO: add other work and edit existent-->
-            <div class="row text-center">
+            <main class="row text-center">
                 
                 <!-- Appify -->
                 <article class="col-sm-6 col-md-4 featured-work">
-                    <img class="img-responsive center-block featured-img" src="imgs/appify.jpg" alt="Appify" data-toggle="modal" data-target="#appify">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="imgs/appify-300.jpg">
+                        <img class="img-responsive center-block img-thumbnail" src="imgs/appify.jpg" alt="Appify" data-toggle="modal" data-target="#appify">
+                    </picture>
                     <h3 class="text-uppercase">Appify</h3>
                     <p>https://github.com/udacity/Appify</p>
                 </article>
                 
                 <!-- Sunflower -->
                 <article class="col-sm-6 col-md-4 featured-work">
-                    <img class="img-responsive center-block featured-img" src="imgs/sunflower.jpg" alt="Sunflower" data-toggle="modal" data-target="#sunflower">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="imgs/sunflower-300.jpg">
+                        <img class="img-responsive center-block img-thumbnail" src="imgs/sunflower.jpg" alt="Sunflower" data-toggle="modal" data-target="#sunflower">
+                    </picture>
                     <h3 class="text-uppercase">Sunflower</h3>
                     <p>https://github.com/udacity/Sunflower</p>
                 </article>
                 
                 <!-- Bokeh -->
                 <article class="col-sm-6 col-md-4 featured-work">
-                    <img class="img-responsive center-block featured-img" src="imgs/bokeh.jpg" alt="Bokeh" data-toggle="modal" data-target="#bokeh">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="imgs/bokeh-300.jpg">
+                        <img class="img-responsive center-block img-thumbnail" src="imgs/bokeh.jpg" alt="Bokeh" data-toggle="modal" data-target="#bokeh">
+                    </picture>
                     <h3 class="text-uppercase">Bokeh</h3>
                     <p>https://github.com/udacity/Bokeh</p>
                 </article>
-            </div>
+            </main>
         
-        </main>
+        </div>
         
         <!-- Footer -->
-        <footer>
-            <div class="row text-center">
-                <a class="social-links" href="https://www.linkedin.com/in/alimahmoud7"><li class="fa fa-linkedin-square fa-3x" aria-hidden="true"></li><span class="social-word">&nbsp; LinkedIn</span></a>
-                <a class="social-links" href="https://github.com/AliMahmoud7"><li class="fa fa-github fa-3x" aria-hidden="true"></li><span class="social-word">&nbsp; Github</span></a>
-                <a class="social-links" href="https://twitter.com/Ali_Mahmoud_7"><li class="fa fa-twitter fa-3x" aria-hidden="true"></li><span class="social-word">&nbsp; Twitter</span></a>
-                <a class="social-links" href="https://www.facebook.com/Ali.Mahmoud.7"><li class="fa fa-facebook-square fa-3x" aria-hidden="true"></li><span class="social-word">&nbsp; Facebook</span></a>
-            <p class="copyright">&copy; 2017 Ali Mahmoud</p>
-            </div>
-        </footer>
+        <div class="container-fluid">
+            <footer class="row">
+                <div class="col-md-12 text-center">
+                    <a class="social-links" href="https://www.linkedin.com/in/alimahmoud7"><span class="fa fa-linkedin-square fa-3x" aria-hidden="true"></span>&nbsp; LinkedIn</a>
+                    <a class="social-links" href="https://github.com/AliMahmoud7"><span class="fa fa-github fa-3x" aria-hidden="true"></span>&nbsp; Github</a>
+                    <a class="social-links" href="https://twitter.com/Ali_Mahmoud_7"><span class="fa fa-twitter fa-3x" aria-hidden="true"></span>&nbsp; Twitter</a>
+                    <a class="social-links" href="https://www.facebook.com/Ali.Mahmoud.7"><span class="fa fa-facebook-square fa-3x" aria-hidden="true"></span>&nbsp; Facebook</a>
+                    <p class="copyright">&copy; 2017 Ali Mahmoud</p>
+                </div>
+            </footer>
+        </div>
         
         <!-- Appify Modal -->
         <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="appify-label" aria-hidden="true">
