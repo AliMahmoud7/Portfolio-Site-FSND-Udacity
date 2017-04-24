@@ -14,10 +14,11 @@
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Picturefill JavaScript -->
+        <script src="js/picturefill.min.js"></script>
     </head>
     <body>
-        
-        <!-- Main Container -->
         <div class="container">
             
             <!-- Header -->
@@ -108,7 +109,10 @@
                         <h4 class="modal-title" id="appify-label">Appify App Page</h4>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive full-img" src="imgs/appify.jpg" alt="Appify">
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="imgs/appify-300.jpg">
+                            <img class="img-responsive full-img" src="imgs/appify.jpg" alt="Appify">
+                        </picture>
                         <p class="modal-text">This was my first project in this class. I learned a lot about HTML, CSS and Responsive Design.</p>
                     </div>
                     <div class="modal-footer">
@@ -126,7 +130,10 @@
                         <h4 class="modal-title" id="sunflower-label">Sunflower App Page</h4>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive full-img" src="imgs/sunflower.jpg" alt="Sunflower">
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="imgs/sunflower-300.jpg">
+                            <img class="img-responsive full-img" src="imgs/sunflower.jpg" alt="Sunflower">
+                        </picture>
                         <p class="modal-text">This was my second project in this class. I learned a lot about HTML, CSS and Responsive Design.</p>
                     </div>
                     <div class="modal-footer">
@@ -144,7 +151,10 @@
                         <h4 class="modal-title" id="bokeh-label">Bokeh App Page</h4>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive full-img" src="imgs/bokeh.jpg" alt="Bokeh">
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="imgs/bokeh-300.jpg">
+                            <img class="img-responsive full-img" src="imgs/bokeh.jpg" alt="Bokeh">
+                        </picture>
                         <p class="modal-text">This was my third project in this class. I learned a lot about HTML, CSS and Responsive Design.</p>
                     </div>
                     <div class="modal-footer">
