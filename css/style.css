@@ -1,7 +1,9 @@
+/* Global */
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
 }
+
 
 /* Header */
 .logo {
@@ -22,8 +24,8 @@ hr {
     border-color: #7d97ad;
 }
 
-/* Featured Work */
 
+/* Featured Work */
 .featured-header {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -36,6 +38,7 @@ hr {
 .featured-work {
     margin-bottom: 15px;
 }
+
 
 /* Footer */
 footer {
@@ -51,13 +54,15 @@ footer {
 
 @media screen and (max-width: 600px) {
     .social-links {
-        display: block;
+        margin: 8px;
     }
 }
 
 .copyright {
     margin-top: 20px;
+    color: #000;
 }
+
 
 /* Modal */
 .modal-text {
